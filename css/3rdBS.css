@@ -1,0 +1,25 @@
+
+div{
+  border: solid;
+  /*margin: 0px !important;*/
+}
+
+.sidenav{
+  background-color: black;
+  display: block;
+  padding: 0px !important;
+}
+
+.socialmedia{
+  float:right;
+  margin: 10px !important;
+}
+
+ul li{
+  display: block;
+  align-content: left;
+}
+
+.postheader{
+  border-bottom: 1px solid;
+}
