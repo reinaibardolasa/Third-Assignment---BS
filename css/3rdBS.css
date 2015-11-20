@@ -8,6 +8,12 @@ div{
   background-color: black;
   display: block;
   padding: 0px !important;
+  height: 800px;;
+}
+
+.sidenav ul li{
+  margin-bottom: 15px;
+  list-style: none;
 }
 
 .socialmedia{
@@ -15,11 +21,106 @@ div{
   margin: 10px !important;
 }
 
-ul li{
-  display: block;
-  align-content: left;
+.homeprofile{
+  border-bottom: 1px solid #dddddd;
+  margin-top: 50px;
+}
+
+.homenav{
+  margin-top: 50px;
+  list-style: none;
+}
+
+.active{
+  background-color: red !important;
+}
+
+.nav-pills li a{
+  color: black !important;
+  list-style: none;
+}
+
+.nav-pills li a:hover{
+  color: #BB3416!important;
+  text-decoration: underline;
+}
+
+.nav-pills>li.active>a{
+  background-color: #7cc576;
+  color: white;
+}
+
+.nav-pills>li.active>a:hover{
+  background-color: #7cc576;
+  color: white;
+}
+
+.post{
+  padding: 5px !important;
+  margin-top: 40px;
 }
 
 .postheader{
   border-bottom: 1px solid;
+}
+
+.postlink{
+  color: #7cc576 !important;
+}
+
+.postcontent p{
+  margin-top: 20px;
+}
+
+.btnContinue{
+  display: inline-block;
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  font-family: sans-serif;
+  background-color: #333333;
+  border-radius: 2px;
+}
+
+.btnContinue:hover{
+  background-color: #7cc576;
+}
+
+.rightnav{
+  margin-top: 50px;
+}
+
+.postcomments{
+  padding-left: 0px;
+}
+
+.ads{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.sidecomments{
+  padding: 0px;
+  margin: 50px 0 0 0;
+}
+
+.sidecomments ul li{
+  color: #333333;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style: none;
+}
+
+.sidecomments ul li:hover{
+  color: #eee;
+  background-color: #7cc576;
+}
+.sidecomments ul li a:hover{
+    color: #eee;
+}
+
+.navbuttons ul li{
+  display: inline-flex;
 }
